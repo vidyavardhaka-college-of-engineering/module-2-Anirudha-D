@@ -3,23 +3,17 @@
 
 
 #include <stdio.h>
- 
-#include <stdio.h>
- 
 int main()
 {
-   int a[10],i,sum;
-   printf("Enter number of elements in array and the array elements");
-   scanf("%d", &n);
- 
-  // printf("Enter %d elements\n", n);
- 
-   for (i = 0; i < n; i++)
-   {
-      scanf("%d", &a[i]);
-      sum=sum+a[]; 
-   }
- printf("Sum of elements=%d", );
- 
-  return 0;
+ int a[10],i,n,sum=0;
+ printf("Enter number of elements in array and the array elements\n");
+ scanf("%d", &n);
+ // printf("Enter %d elements\n", n);
+ for (i = 0; i < n; i++)
+ {
+ scanf("%d", &a[i]);
+ sum=sum+a[i]; 
+ } 
+printf("Sum of elements=%d",sum );
+ return 0;
 }
